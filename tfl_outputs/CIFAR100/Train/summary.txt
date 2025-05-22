@@ -1,0 +1,13 @@
+****************
+model_type: ram
+backbone: swin_l
+checkpoint: ./pretrained/ram_swin_large_14m.pth
+open_set: True
+dataset: CIFAR100
+input_size: 224
+threshold: None
+threshold_file: None
+output_dir: ./tfl_outputs
+batch_size: 128
+num_workers: 4
+****************

@@ -1,0 +1,14 @@
+****************
+model_type: ram
+backbone: swin_l
+checkpoint: pretrained/ram_swin_large_14m.pth
+open_set: True
+dataset: coco
+input_size: 224
+threshold: None
+threshold_file: None
+output_dir: ./SPMLUA_outputs
+batch_size: 128
+num_workers: 8
+****************
+mAP: 71.89604493084036
